@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* header */ 
+
+
+header{
+
+    background-color: #262626;
+    width: 100%;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    border-top: 3rem;
+    
+}
+
+.nav1{ 
+
+    color: white;
+    align-items: baseline;
+    background-color: #262626;
+    color: white;
+    width: 4rem;
+    padding: 10px 15px;
+    display: inline;
+    float: right;
+    text-decoration: none;
+    margin-bottom: 5rem;
+}
+
+.nav1:hover{
+    background-color: black;
+}
+
+.mainmenu{
+
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+
+.nav2{
+
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    float: center;
+    
+
+}
+
+.nav2 img{
+    
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    clear: both;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: auto;
+    height: 3rem;
+    place-items: center;
+
+    
+}
+
+/* Introducción */
+
+.biblioghraphy{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 88vw;
+    margin-left: 4vw;
+    margin-bottom: 3rem;
+   
+}
+
+.contentbiblio{
+    
+    flex: left;
+    
+}
+
+.contentbiblio > h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contentbiblio > span {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.3rem;
+    font-style: bold; 
+    
+}
+
+.contentbiblio > p {
+    font-family: 'Macondo', cursive;
+    font-style: oblique;
+    font-size: 16px;
+    margin-top: 3rem;
+    
+}
+
+.contentbiblio img{
+    width: 50%;
+    float: right;
+    
+}
+
+.btn{
+    background-color: #262626;
+    margin-top: -3rem;
+    padding: 1rem;
+}
+
+.btn > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+/* experience */
+
+h3{
+    margin-left: 1vw;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 3rem;
+}
+
+h4{
+    margin-left: 1.5vw;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5rem;
+}
+
+.momento{
+    display: grid;
+    margin: 3vw;
+    /* border-bottom: 3rem; */
+    grid-template-areas: 
+
+        "fecha puesto"
+        "fecha institucion"
+    ;
+    grid-template-columns: 1fr 4fr;
+    
+}
+
+.fecha{
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    float: center;
+    grid-area: fecha;
+
+}
+
+.puesto{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5rem;
+    float: left;
+    grid-area: puesto;
+}
+
+.institucion{
+    font-family: 'Signika Negative', sans-serif;
+    float: left;
+    grid-area: institucion;
+    
+}
+
+.projects{
+
+    display: grid;
+    float: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.item{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2rem;
+    background-color: #ffe0ff;
+    color: #c7237a;
+    margin: 3vw;
+    padding: 1vw;
+    display: grid;
+    float: left;
+    grid-template-areas: 
+        "title title"
+        "web github"
+    ;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    gap: 1.5vw;
+
+}
+
+.projectstitle{
+    
+    grid-area: title;
+}
+
+.iconweb{
+    
+    grid-area: web;
+}
+
+.icongithub{
+    
+    grid-area: github;
+}
+
+.contact {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 88vw;
+    margin-left: 4vw;
+    margin-bottom: 3rem;
+    place-items: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:8px;
+    gap: 1.5vw;
+	background-color: transparent;
+    
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+.contact2{
+    margin: 2vw;
+}
+
+.contact2 > a >i{
+    margin: 2vw;
+}
+
+.icon2 {
+    font-size: 64px;
+}
+
+footer{
+    text-align: center;
+    font-size: 2vw;
+    background-color:aliceblue;
+    font-family: 'Raleway', sans-serif;
+}
+
+.icon3{
+    margin: 3vw;
+    font-size: 32px;
+}
